@@ -1,0 +1,17 @@
+1.create html demo panel marcup.(here class styleswitch_box and id is important , id name and css.file name should be same like - brown_tone.css and <a class="styleswitch_box" id="brown_tone"></a>
+
+2.then style it (here switcher.css )
+
+3.defarent css file create korte hobe like default.css , brown_tone.css and so on.
+
+4.then link this   <!--# demo_styleswitch panel style -->
+		<link rel="stylesheet" href="css/switcher.css"> 
+		 <!--# demo css change -->
+		<link rel="stylesheet" id="switch_style" href=""> 
+		
+5. then link this js -  <!--call demo_styleswitch.js   from local-->
+        <script src="js/demo_styleswitch.js"></script>
+		
+		
+6.Done
+        
